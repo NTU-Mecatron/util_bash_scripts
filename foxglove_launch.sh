@@ -1,0 +1,1 @@
+roslaunch foxglove_bridge foxglove_bridge.launch topic_whitelist:=['/rosout.*','/tf.*','/pixhawk.*','/dvl.*','/yolo_node_1/activate_yolo.*','/yolo_node_1/annotated_frame/compressed','/yolo_node_1/inference.*','/camera_publisher/recording_status','/pool_map']
