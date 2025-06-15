@@ -1,1 +1,1 @@
-mavproxy.py --master /dev/ttyACM1 --out udp:0.0.0.0:14551 --out udp:192.168.2.2:14550
+mavproxy.py --master /dev/ttyACM1 --out udp:0.0.0.0:14551 --out udp:192.168.68.104:14550
