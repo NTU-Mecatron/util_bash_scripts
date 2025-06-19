@@ -22,7 +22,7 @@ if [ $? != 0 ]; then
   # Commands for Window 0
   tmux send-keys -t "$SESH":0.0 'roslaunch bt_planner pixhawk_bringup.launch'
   tmux send-keys -t "$SESH":0.1 'roslaunch tf_manager tf_manager.launch'
-  tmux send-keys -t "$SESH":0.2 'roslaunch bt_planner starting.launch'
+  tmux send-keys -t "$SESH":0.2 'roslaunch bt_planner starting.launch pixhawk_starter:=true rosbag:=true'
   #tmux send-keys -t "$SESH":0.3 'spare'
   #tmux send-keys -t "$SESH":0.4 'spare'
   # tmux send-keys -t "$SESH":0.5 'spare'
